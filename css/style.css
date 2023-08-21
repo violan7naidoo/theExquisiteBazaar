@@ -1257,4 +1257,12 @@ form label.error {
   font-size: 16px;
 }
 
+.enlarge-on-hover {
+  transition: transform 0.7s ease-in-out;
+}
+
+.enlarge-on-hover:hover {
+  transform: scale(1.5); /* Change the scale value to control the amount of enlargement */
+}
+
 /*# sourceMappingURL=style.css.map */
